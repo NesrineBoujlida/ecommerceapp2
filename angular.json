@@ -24,7 +24,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/@okta/okta-signin-widget/dist/css/okta-sign-in.min.css"
+            
             ],
             "scripts": []
           },
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ecommerce"
+    }
+  },
+  "defaultProject": "angular-ecommerce",
+  "cli": {
+    "analytics": "71883d74-b19a-4578-81f1-0b9ee070701b"
+  }
 }
